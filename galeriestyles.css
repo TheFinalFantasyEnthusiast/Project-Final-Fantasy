@@ -1,0 +1,140 @@
+body {
+    font-family: "poppins", sans-serif;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.layout_padding {
+  padding: 75px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 75px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 75px;
+}
+
+.custom_heading {
+  position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.swiper-slide {
+    background-position: left;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+}
+.info_section {
+    background-image: url("../images/info-bg01-10.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .info_section .logo-box {
+    width: 200px;
+    margin: 0 auto 75px auto;
+  }
+  
+  .info_section .logo-box img {
+    width: 100%;
+  }
+  
+  .info_items {
+    width: 65%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .info_items .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .info_items .item .img-box {
+    width: 50px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+  }
+  
+  .info_items .item .img-box img {
+    width: 100%;
+  }
+  
+  .info_items .item .detail-box {
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .info_items {
+    position: relative;
+  }
+  
+  .info_items a {
+    position: relative;
+  }
+  
+  /* footer section*/
+  .footer_section {
+    background-color: #ffffff;
+    padding: 20px;
+    font-weight: 500;
+  }
+  
+  .footer_section p {
+    color: #292929;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer_section a {
+    color: #292929;
+  }
+  
+  /* end footer section*/
+  /*# sourceMappingURL=style.css.map */
+  
